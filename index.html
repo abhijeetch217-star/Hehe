@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>A Small Garden for my Eva 🌸</title>
+  <title>A Small Garden 🌿</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1 class="title">A small garden for my paglu 🌸</h1>
 
+<div class="sky">
+  <div class="layer clouds"></div>
+  <div class="layer stars"></div>
+  <div class="sun"></div>
+  <div class="moon"></div>
+</div>
+
+<div class="grass"></div>
+<div id="flowers"></div>
+<div id="fireflies"></div>
+
+<audio id="bloomSound" src="bloom.mp3" preload="auto"></audio>
+
 <div class="controls">
-  <button onclick="startAuto()">Auto Bloom 🌷</button>
-  <button onclick="resetGarden()">Reset 🌱</button>
+  <button onclick="startAuto()">Auto Bloom</button>
+  <button onclick="resetGarden()">Reset</button>
 </div>
 
 <script src="script.js"></script>
